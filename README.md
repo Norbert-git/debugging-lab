@@ -5,10 +5,10 @@ Rules for this lab: You can use google or each other as resources. You cannot as
 I’ll release an answer guide to all the bugs next week for you to compare against.
 
 ## Common issues to look out for:
-Misspellngs
-Syntax errors
-Forgot to run a command
-Forgot to include or export a needed resource
+Misspellngs  
+- Syntax errors  
+- Forgot to run a command  
+- Forgot to include or export a needed resource  
 
 The goal is to take the code provided and fix it so that you get a UI to show up and have no errors in the developer tools console.
 
