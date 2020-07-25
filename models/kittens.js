@@ -1,7 +1,7 @@
 
 function getKittens() {
 
-  const numberOfKittens = Math.floor(math.random() * 10) + 2;
+  const numberOfKittens = Math.floor(Math.random() * 10) + 2;
   const kittens = [];
 
   for (let i = 0; i < numberOfKittens; i++) {
@@ -10,9 +10,9 @@ function getKittens() {
     kittens.push({
       id: i,
       src: `https://placekitten.com/${width}/${height}`
-    });
+    })
   }
 
   return kittens;
 }
-
+module.exports = getKittens();
