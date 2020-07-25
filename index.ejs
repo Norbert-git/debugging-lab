@@ -9,7 +9,7 @@
   <h1>Hello World!</h1>
   <div>Kitten Collage</div>
   <%= kittens.forEach(kitten => { 
-    <div class="kitten-<%kitten.id%>">
+    <div class="kitten<%kitten.id%>">
       <img src="<%= kitten.img %>" alt="Kitten pls" />
     </div>
   }) %>

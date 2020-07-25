@@ -9,7 +9,7 @@ function getKittens() {
     const height = (Math.floor(Math.random() * 5) + 1) * 100;
     kittens.push({
       id: i,
-      src: `https://placekitten.com/${width}/${HEIGHT}`
+      src: `https://placekitten.com/${width}/${height}`
     });
   }
 

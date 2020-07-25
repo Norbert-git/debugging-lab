@@ -1,5 +1,6 @@
-const router = require("express")
-const app = express()
+const express = require('express')
+const router = express.Router()
+
 app.set("veiw engine", "ejs")
 
 app.use("/", router)
