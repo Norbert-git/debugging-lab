@@ -8,7 +8,6 @@ app.get('/kittens', (request, response) => {
   response.render('index.ejs', { kittens })
 })
 
-app.set("view engine", "ejs")
 
 app.listen(3000, () => {
   console.log("I took a trip to the port 3000")
