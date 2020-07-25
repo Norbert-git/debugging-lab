@@ -1,7 +1,11 @@
 const express = require('express')
+const app = express();
 const router = express.Router()
 
-app.set("veiw engine", "ejs")
+app.get('/kittens', (request, response) => {
+  response.render('index.ejs', { kittens })
+})
+
 
 app.use("/", router)
 
